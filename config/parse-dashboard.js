@@ -9,11 +9,11 @@ module.exports = {
   apps: [
     {
       serverURL: process.env.PARSE_PUBLIC_SERVER_URL || 'http://localhost:1337/cloud',
-      appId: process.env.PARSE_SERVER_APP_ID || 'Qd8P4hyrlMS84fF2GUCk7o4NK7A0lcSp',
-      masterKey: process.env.PARSE_SERVER_MASTER_KEY || '9S8s0mVmTOFSsIIW9FCgOhSgalOWSmcz', // Add your master key here. Keep it secret!
-      javascriptKey: process.env.PARSE_SERVER_JAVASCRIPT_KEY || '9m4hxvmlGRsqCBFEZo04ZTAuoGiqpvRq', // Key for the Javascript SDK
-      restKey: process.env.PARSE_SERVER_REST_API_KEY || 'kuSFO8ybyVRDuumLjsSNnkF35twUVLAG',
-      clientKey: process.env.PARSE_SERVER_CLIENT_KEY || 'lMXTAcTwTsfF3JukkJj52CxoUJszwriD', //  Key for iOS, MacOS, tvOS clients
+      appId: process.env.PARSE_SERVER_APP_ID || 'MyAppId',
+      masterKey: process.env.PARSE_SERVER_MASTER_KEY || 'MyMasterKey', // Add your master key here. Keep it secret!
+      javascriptKey: process.env.PARSE_SERVER_JAVASCRIPT_KEY || 'MyJavascriptKey', // Key for the Javascript SDK
+      restKey: process.env.PARSE_SERVER_REST_API_KEY || 'MyRestApiKey',
+      clientKey: process.env.PARSE_SERVER_CLIENT_KEY || 'MyClientKey', //  Key for iOS, MacOS, tvOS clients
       appName: process.env.PARSE_SERVER_APP_NAME || 'Traveling',
       appNameForURL: 'traveling'
     }
