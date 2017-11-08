@@ -1,0 +1,30 @@
+{
+  "name": "parse-server-example",
+  "version": "1.4.0",
+  "description": "An example Parse API server using the parse-server module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ParsePlatform/parse-server-example"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.16.x",
+    "kerberos": "~0.0.23",
+    "parse": "~1.10.1",
+    "parse-dashboard": "1.1.2",
+    "node-schedule": "1.2.1",
+    "parse-image": "0.2.0",
+    "moment": "2.18.1",
+    "moment-timezone": "0.5.13",
+    "twitter-text": "1.14.3",
+    "ejs": "2.5.6",
+    "parse-server": "2.6.5"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=4.3"
+  }
+}
